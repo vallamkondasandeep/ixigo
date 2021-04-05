@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="https://www.ixigo.com/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="sample test(failed)">
+    <classes>
+      <class name="test.company.tests.SearchResultsTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- test.company.tests.SearchResultsTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test] -->

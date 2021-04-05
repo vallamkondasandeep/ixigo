@@ -1,0 +1,3 @@
+test\company\base\TestBaseSetup.class
+test\company\pages\SearchResultsPage.class
+test\company\pages\BasePage.class
